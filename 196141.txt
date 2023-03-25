@@ -1,0 +1,27 @@
+// dodavanje na README.md dadoteka
+echo "Nikita Vuevski, 196141" >> README.md
+git add README.md
+git commit -m "Initial commit"
+
+// dodavanje na SILab1.java dadoteka
+touch SILab1.java
+nano SILab1.java
+git add SILab1.java
+git commit -m "Add java class"
+
+// dodavanje na novi branch-ovi (bug1, bug2, bug3)
+
+// popravanje na greshkite vo sekoja od niv oddelno.
+
+// sinhronizacija na site oddelno so komandata
+git push --set-upstream origin (ime na branch)
+
+//spojuvanje na grankite bug1 i bug2
+git merge bug1 /  bug2
+git push
+
+//pravneje rebase kon master. 
+
+//spojuvanje so bug3
+
+//dodavanje logs.txt i 196141.txt
